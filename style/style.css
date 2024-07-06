@@ -45,9 +45,11 @@
 
 
 .section-title{
+    text-align: center;
 font-size: 35px;
 font-weight: bold;
 color: #181818;
+margin: 5px;
 }
 
 .header{
@@ -123,5 +125,28 @@ margin: 130px;
 .about-items{
     display: flex;
     justify-content: space-around;
-    margin: 0px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+    margin: 5px;
+
+}
+
+main section{
+    margin: top30px;
+    margin-bottom: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    /* box-shadow: 0px 6px 50px 0px; #argba (0,0,0,0.06);
+} */
+
+.skills{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px;
 }
